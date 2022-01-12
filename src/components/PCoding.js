@@ -4,7 +4,7 @@ import { H5, A, Span } from "../theme/SmallComp"
 import { Icon } from "./Icons"
 import { violet } from "../theme/variables"
 import { PCoContainer } from "../theme/Containers"
-import { PCODIV1, PCODIV2_00, PCODIV2_01, PCODIV2_01_1, PCODIV2_01_2, PCODIV2_01_3, PCODIV2_03_Text, PCODIV2_03_Icons, PCODIV2_01_4, PCODIV2_02, PCODIV2_02_1, PCODIV2_02_2, PCODIV2_02_3, PCODIV2_02_4, PCODIV2_03_1, PCODIV2_03_2, PCODIV2_03_3, PCODIV2_03_4, PCODIV2_03_5, PCODIV2_03_6, PCODIV2_03, PCODIV3 } from "../theme/PCodingStyle"
+import { PCODIV1, PCODIV2_00, PCODIV2_01, PCODIV2_01_1, PCODIV2_01_2, PCODIV2_01_3, PCODIV2_03_Text, PCODIV2_03_Icons, PCODIV2_01_4, PCODIV2_02, PCODIV2_02_1, PCODIV2_02_2, PCODIV2_02_3, PCODIV2_02_4, PCODIV2_02_5, PCODIV2_03_1, PCODIV2_03_2, PCODIV2_03_3, PCODIV2_03_4, PCODIV2_03_5, PCODIV2_03_6, PCODIV2_03, PCODIV3 } from "../theme/PCodingStyle"
 
 export const PCoding = () => {
 	const { locale, updateLocale } = useContext(LocaleContext)
@@ -25,22 +25,25 @@ export const PCoding = () => {
 				{locale === "pt" && <H5><Span>Languagems</Span></H5>}
 				</PCODIV2_01_1>
 				<PCODIV2_01_2>
-				<A target="_blank" href="https://github.com/AbelBoot/Drone-Gesture-Recognition" >
-				<Icon name="javascript" color={violet}/>
+				<A target="_blank" href="">
+				<Icon name="csharp"  color={violet}/>
 				</A>
 				</PCODIV2_01_2>
 				<PCODIV2_01_3>
+				<A target="_blank" href="https://github.com/AbelBoot/Drone-Gesture-Recognition" >
+				<Icon name="javascript" color={violet}/>
+				</A>
+				</PCODIV2_01_3>
+				<PCODIV2_01_4>
 				<A target="_blank" href="https://github.com/AbelBoot/SimpleApp-Nestjs">
 				<Icon name="typescript" color={violet}/>
 				</A>
-				</PCODIV2_01_3>
+				</PCODIV2_01_4>
 				<PCODIV2_01_4>
 				<A target="_blank" href="https://github.com/mitchzer/ADRENABID">
 				<Icon name="ruby" width={"22"} color={violet}/>
 				</A>
-				</PCODIV2_01_4>
-				<PCODIV2_01_4>
-				
+
 				</PCODIV2_01_4>
 				</PCODIV2_01>
 				<PCODIV2_02>
@@ -56,15 +59,20 @@ export const PCoding = () => {
 				</A>
 				</PCODIV2_02_2>
 				<PCODIV2_02_3>
-				<A target="_blank" href="https://github.com/AbelBoot/SimpleApp-Nestjs">
-				<Icon name="nestjs" width={"70"} color={violet}/>
+				<A target="_blank" href="">
+				<Icon name="net" width={"70"} color={violet}/>
 				</A>
 				</PCODIV2_02_3>
 				<PCODIV2_02_4>
+				<A target="_blank" href="https://github.com/AbelBoot/SimpleApp-Nestjs">
+				<Icon name="nestjs" width={"70"} color={violet}/>
+				</A>
+				</PCODIV2_02_4>
+				<PCODIV2_02_5>
 				<A target="_blank" href="https://github.com/mitchzer/ADRENABID">
 				<Icon name="rails" width={"70"} color={violet}/>
 				</A>
-				</PCODIV2_02_4>
+				</PCODIV2_02_5>
 				</PCODIV2_02>
 				<PCODIV2_03>
 				
