@@ -41,22 +41,22 @@ const Icons = {
 }
 const IconsNonStdViewBox = {
 	csharp: "204.925 153.577 757.617 860.543", 
-	net: "200 90 256 300", //I tweaked this one.
+	net: "200 90 256 250", //I tweaked this
 	react: "0 0 512 512", 
 	reactAnim: "0 0 841.9 595.3", 
 	youtube2: "0 0 80 32",
 	//nodejs: "0 0 442.37 270.929"
 	nodejs: "0 0 512 145",
-	javascript:"0 0 630 630",
+	javascript:"0 70 630 630",
 	html:"0 0 512 512",
 	css: "0 0 362.73401 511.99998",
 	github: "0 0 24 24",
 	rails: "0 0 411 155",
 	googleScholars: "0 0 512 512",
 	resume: "0 0 1024 1024",
-	typescript: "0 0 512 512",
+	typescript: "0 70 512 512",
 	ruby: "0 0 198.13 197.58",
-	nestjs: "0 0 107.78 44.78",
+	nestjs: "0 -5 107.78 44.78",
     postgresql: "0 0 432.071 445.383",
     hamburger: "0 0 32 32", 
     cross: "0 0 32 32" 

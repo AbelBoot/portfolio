@@ -28,10 +28,11 @@ export const Welcome = () => {
                 ><SpanCVInline>CV</SpanCVInline></A>
               </WCDIV1_03>
               <WCDIV1_04>
-              {locale === "en" && <H4 marginTop=".2" marginBottom="1" color={violet}>I am looking for a web development job opportunity in roles related to JavaScript and React.</H4>}
-              {locale === "fr" && <H4 marginTop=".2" marginBottom="1" color={violet}>Cette page se veut être une sorte de CV “plus”, afin de pouvoir trouver un job dans le domaine de la programmation.</H4>}
-              {locale === "sp" && <H4 marginTop=".2" marginBottom="1" color={violet}>Esta página fue creada por ser una especie de currículum extendido, que me ayude a conseguir un trabajo de desarrollador web.</H4>}
-              {locale === "pt" && <H4 marginTop=".2" marginBottom="1" color={violet}>Esta página pretende ser um currículo estendido, que me ajudaria a conseguir um emprego em programação.</H4>}
+			  
+              {/*locale === "en" && <H4 marginTop=".2" marginBottom="1" color={violet}>I am looking for a web development job opportunity in roles related to JavaScript and React.</H4>*/}
+              {/*locale === "fr" && <H4 marginTop=".2" marginBottom="1" color={violet}>Cette page se veut être une sorte de CV “plus”, afin de pouvoir trouver un job dans le domaine de la programmation.</H4>*/}
+              {/*locale === "sp" && <H4 marginTop=".2" marginBottom="1" color={violet}>Esta página fue creada por ser una especie de currículum extendido, que me ayude a conseguir un trabajo de desarrollador web.</H4>*/}
+              {/*locale === "pt" && <H4 marginTop=".2" marginBottom="1" color={violet}>Esta página pretende ser um currículo estendido, que me ajudaria a conseguir um emprego em programação.</H4>*/}
 			  </WCDIV1_04>
 			  </WCDIV1>
 
